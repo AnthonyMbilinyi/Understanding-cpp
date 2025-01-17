@@ -1,0 +1,13 @@
+# include<iostream>
+#include<string>
+using namespace std;
+
+int main(){
+string comments;
+
+cout<<"Enter your comments";
+getline(cin, comments);
+
+cout<<endl<<"your comments"<<comments<<endl;
+
+}
